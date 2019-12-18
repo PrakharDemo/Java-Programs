@@ -46,5 +46,6 @@ public class SwitchStatement
 			default:
 				System.out.println("The entered value is not valid");
 		}
+		input.close();
 	}
 }
