@@ -19,6 +19,7 @@ public class DoWhileLoopExample
 		}
 		while (number >0);
 		System.out.println("The sum of digits of the number " + copy + " is : " + sum);
+		input.close();
 	}
 
 }
