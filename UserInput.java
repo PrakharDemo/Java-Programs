@@ -13,14 +13,16 @@ public class UserInput
 		System.out.println("The entered float value is : " + myFloat);
 
 		// Getting a double value as an input
-    	System.out.print("Please enter a double value as input :");
-    	double myDouble = input.nextDouble();
-    	System.out.println("The entered Double value is : " + myDouble);
+    		System.out.print("Please enter a double value as input :");
+    		double myDouble = input.nextDouble();
+    		System.out.println("The entered Double value is : " + myDouble);
     	
-    	// Getting String input
-    	System.out.print("Please enter a text value as input: ");
-    	String myString = input.next();
-    	System.out.println("The entered text is " + myString);
+    		// Getting String input
+    		System.out.print("Please enter a text value as input: ");
+    		String myString = input.next();
+    		System.out.println("The entered text is " + myString);
+		
+		input.close();
 	}
 
 }
